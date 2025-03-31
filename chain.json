@@ -1,0 +1,8 @@
+{
+  "default": "bellecour",
+  "chains": {
+    "bellecour": {
+      "sms": { "tdx": "https://sms.labs.iex.ec" }
+    }
+  }
+}

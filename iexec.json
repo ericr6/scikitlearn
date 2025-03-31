@@ -1,0 +1,21 @@
+{
+  "description": "My iExec resource description, must be at least 150 chars long in order to pass the validation checks. Describe your application, dataset or workerpool to your users",
+  "license": "MIT",
+  "author": "?",
+  "social": {
+    "website": "?",
+    "github": "?"
+  },
+  "logo": "logo.png",
+  "buyConf": {},
+  "app": {
+    "owner": "0x7d7428FfC98Cc36dFe2E60C10D0E618454Cb8A4B",
+    "name": "scikit-learn-classification:1.0.0",
+    "type": "DOCKER",
+    "multiaddr": "ericro/scikit-learn-classification:1.0.0",
+    "checksum": "0x3db11b825e30e22530c00672f2453b6010fbd105ab03ef2bde6d16890653c067",
+    "mrenclave": {
+      "framework": "TDX"
+    }
+  }
+}
