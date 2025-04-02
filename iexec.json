@@ -10,12 +10,25 @@
   "buyConf": {},
   "app": {
     "owner": "0x7d7428FfC98Cc36dFe2E60C10D0E618454Cb8A4B",
-    "name": "scikit-learn-classification:1.0.0",
+    "name": "scikitlearn-classification:1.0.0",
     "type": "DOCKER",
     "multiaddr": "ericro/scikit-learn-classification:1.0.0",
-    "checksum": "0x3db11b825e30e22530c00672f2453b6010fbd105ab03ef2bde6d16890653c067",
+    "checksum": "0x00140bc2a1b49a38d5ba68c352d8d982412ccbb59a34b5a679be0bcd027c5ad9",
     "mrenclave": {
       "framework": "TDX"
+    }
+  },
+  "order": {
+    "workerpoolorder": {
+      "workerpool": "0x4568effcec8ba0787e52deef10ed03267e7c95b1",
+      "volume": "10",
+      "workerpoolprice": "0",
+      "category": "0",
+      "trust": "0",
+      "tag": "0x0000000000000000000000000000000000000000000000000000000000000003",
+      "apprestrict": "0x0000000000000000000000000000000000000000",
+      "datasetrestrict": "0x0000000000000000000000000000000000000000",
+      "requesterrestrict": "0x7d7428ffc98cc36dfe2e60c10d0e618454cb8a4b"
     }
   }
 }
