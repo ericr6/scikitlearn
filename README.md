@@ -23,7 +23,10 @@ Validate locally.
 
 # Deploy 
 
-`"app": {
+Example of `iexec.json`.
+
+``` json
+"app": {
     "owner": "<app_owner_address>",
     "name": "scikitlearn-classification:1.0.0",
     "type": "DOCKER",
@@ -33,7 +36,7 @@ Validate locally.
       "framework": "TDX"
     }
   }
-`
+```
 
 `iexec app deploy`
 
