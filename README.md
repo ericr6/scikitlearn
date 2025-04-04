@@ -38,11 +38,15 @@ Example of `iexec.json`.
   }
 ```
 
+Deploy command:
+
 `iexec app deploy`
 
 ## Run 
 
 Use ` iexec app run` to launch the confidential execution on the iExec platform
+
+App run command
 
 `iexec app run --tag tee,tdx --workerpool tdx-labs.pools.iexec.eth --watch --force`
 
