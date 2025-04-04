@@ -6,13 +6,17 @@ This repository contains a demo that showcases how to leverage scikit-learn's po
 
 https://protocol.docs.iex.ec/for-developers/confidential-computing/create-your-first-tdx-app
 
+**Note:** 
+Please review the documentation before implementation. 
+This demo employs certain implementation shortcuts and assumes prior knowledge of the iExec platform architecture and workflows.
+
 ## Build image 
 
 `App.py` has been adapted with minor modifications to handle output management for iExec compatibility
 
-`docker build --tag ericro/scikit-learn-classification:1.0.0 .`
+`docker build --tag <docker-hub-user>/scikit-learn-classification:1.0.0 .`
 
-`docker push ericro/scikit-learn-classification:1.0.0`
+`docker push <docker-hub-user>/scikit-learn-classification:1.0.0`
 
 
 ## Test localy
