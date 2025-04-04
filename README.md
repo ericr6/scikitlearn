@@ -10,9 +10,9 @@ https://protocol.docs.iex.ec/for-developers/confidential-computing/create-your-f
 
 `App.py` has been adapted with minor modifications to handle output management for iExec compatibility
 
-`docker build --tag ericro/scikit-learn-classification-default:1.0.0 .`
+`docker build --tag ericro/scikit-learn-classification:1.0.0 .`
 
-`docker push ericro/scikit-learn-classification-default:1.0.0`
+`docker push ericro/scikit-learn-classification:1.0.0`
 
 
 ## Test localy
