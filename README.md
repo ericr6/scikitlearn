@@ -1,8 +1,6 @@
 # Scikitlearn
 
-This repository demonstrates how scikit-learn machine learning capabilities 
-can be deployed and executed on the iExec decentralized cloud platform.
-This demo showcases how to leverage scikit-learn's powerful machine learning algorithms within the iExec confidential computing platform.
+This repository contains a demo that showcases how to leverage scikit-learn's powerful machine learning algorithms within the iExec confidential computing platform.
 
 ## Installation
 
