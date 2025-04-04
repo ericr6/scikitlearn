@@ -2,23 +2,11 @@
 # SPDX-License-Identifier: BSD-3-Clause
 # Set environment variables first, before any imports
 import os
-os.environ['OPENBLAS_NUM_THREADS'] = '1'
-os.environ['MKL_NUM_THREADS'] = '1'
-os.environ['OMP_NUM_THREADS'] = '1'
-os.environ['NUMEXPR_NUM_THREADS'] = '1'
-os.environ['MPLCONFIGDIR'] = '/tmp'
 iexec_out = os.environ['IEXEC_OUT']
 # Print to verify variables are set
 print(f"OPENBLAS_NUM_THREADS = {os.environ.get('OPENBLAS_NUM_THREADS', 'not set')}")
 print(f"MKL_NUM_THREADS = {os.environ.get('MKL_NUM_THREADS', 'not set')}")
 print(f"OMP_NUM_THREADS = {os.environ.get('OMP_NUM_THREADS', 'not set')}")
-
-import matplotlib
-matplotlib.use('Agg')  # Non-interactive backend
-matplotlib.rcParams['font.sans-serif'] = ['Liberation Sans', 'DejaVu Sans', 'sans-serif']
-matplotlib.rcParams['mathtext.fontset'] = 'stix'
-matplotlib.rcParams['font.family'] = 'STIXGeneral'
-import matplotlib.pyplot as plt
 
 # Now the rest of your imports
 
