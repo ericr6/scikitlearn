@@ -8,7 +8,7 @@ https://protocol.docs.iex.ec/for-developers/confidential-computing/create-your-f
 
 ## Build image 
 
-App.py is slighly modified to make the demo compatible with iExec (small modification for output management)  
+`App.py` has been adapted with minor modifications to handle output management for iExec compatibility
 
 `docker build --tag ericro/scikit-learn-classification-default:1.0.0 .`
 
@@ -17,14 +17,14 @@ App.py is slighly modified to make the demo compatible with iExec (small modific
 
 ## Test localy
 
-Validate locally the execution. 
+Validate locally. 
 
 `./local_run.sh`
 
 # Deploy 
 
 `"app": {
-    "owner": "app_owner_address",
+    "owner": "<app_owner_address>",
     "name": "scikitlearn-classification:1.0.0",
     "type": "DOCKER",
     "multiaddr": "<docker-hub-user>/scikit-learn-classification:1.0.0",
@@ -34,11 +34,12 @@ Validate locally the execution.
     }
   }
 `
-Set your wallet address as owner app in iexec.json. 
 
 `iexec app deploy`
 
 ## Run 
+
+Use ` iexec app run` to launch the confidential execution on the iExec platform
 
 `iexec app run --tag tee,tdx --workerpool tdx-labs.pools.iexec.eth --watch --force`
 
